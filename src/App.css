@@ -1,0 +1,106 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.app-icon {
+  background-color: #6a0dad;
+  color: #fff;
+  padding: 20px;
+}
+
+
+.falcon {
+  margin-bottom: 20px;
+}
+
+.ur-falcon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.transaction input[type="date"],
+.transaction input[type="text"],
+.transaction input[type="number"] {
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 1000px;
+}
+
+.my-button {
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #4c086a;
+}
+
+
+.search {
+  margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+
+
+.table-icon {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-icon th,
+.table-icon td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+.table-icon th button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.table-icon th button:hover {
+  text-decoration: underline;
+}
+
+.table-icon tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-icon tbody tr:hover {
+  background-color: #f0f0f0;
+}
